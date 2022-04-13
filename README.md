@@ -16,3 +16,5 @@
 - Integrar JS con HTML
 
 ## Capítulo 6 de 24 - Calculando figuras geométricas en JavaScript
+
+## Capítulo 7 de 24 - Encapsulando código en funciones
