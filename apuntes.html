@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <title>Curso Práctico de Javascript</title>
+  </head>
+  <body>
+      <header>
+          <h1 class="text-center">Curso Práctico de Javascript</h1>
+      </header>
+        <div class="container">
+            <section>
+                <h2>2 DE 24 - PRUEBA DE JAVASCRIPT</h2>
+                <div class="MaterialLecture-text"><p>¡Es hora de poner a prueba cuánto sabes sobre JavaScript!</p>
+                    <p>Esta lectura es una prueba de JavaScript. A diferencia de un examen, nadie te obligará a nada. <strong>Puedes hacer trampa y saltar a la siguiente clase</strong>, ese es el camino fácil. Pero tengo mucha fe en ti, confío en que seguirás mis consejos y no avanzarás a la siguiente clase hasta superar esta prueba.</p>
+                    <h2>Instrucciones para tomar esta prueba</h2>
+                    <ul>
+                    <li>Evalúa muy críticamente tu conocimiento.</li>
+                    <li>Si logras resolver la prueba, no importa cuánto te cueste, puedo asegurarte que tienes todo para continuar a la siguiente clase y tomar el resto del curso.</li>
+                    <li>Si no lo logras, no te preocupes, absolutamente nadie puede juzgarte, solo tú.</li>
+                    <li>Vuelve al <a href="https://platzi.com/clases/basico-javascript/" target="_blank" rel="noopener">Curso Básico de JavaScript</a>, anota los temas clave donde puedes mejorar, ubica las clases donde puedes aprenderlos y estudia vigorosamente.</li>
+                    <li>Es completamente válido hacer búsquedas en Google, cursos y tutoriales de Platzi, incluso usar tu cuaderno de notas sin importar si es físico o virtual.</li>
+                    </ul>
+                    <p>Recuerda que <strong>el éxito no se mide por cuánto tiempo te toma aprender</strong>, esa métrica es relativamente inútil. Mejor concéntrate en completar los cursos de tu ruta de aprendizaje profesional y desarrollar los proyectos que realmente demuestran que dominas cada tecnología.</p>
+                    <p>¡Mucha suerte!</p>
+                    <h2>Variables y operaciones</h2>
+                    <p>1️⃣ Responde las siguientes preguntas en la sección de comentarios:</p>
+                    <ul>
+                    <li>¿Qué es una variable y para qué sirve?</li>
+                    <li>¿Cuál es la diferencia entre declarar e inicializar una variable?</li>
+                    <li>¿Cuál es la diferencia entre sumar números y concatenar strings?</li>
+                    <li>¿Cuál operador me permite sumar o concatenar?</li>
+                    </ul>
+                    <p>2️⃣ Determina el nombre y tipo de dato para almacenar en variables la siguiente información:</p>
+                    <ul>
+                    <li>Nombre</li>
+                    <li>Apellido</li>
+                    <li>Nombre de usuario en Platzi</li>
+                    <li>Edad</li>
+                    <li>Correo electrónico</li>
+                    <li>Mayor de edad</li>
+                    <li>Dinero ahorrado</li>
+                    <li>Deudas</li>
+                    </ul>
+                    <p>3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.</p>
+                    <p>4️⃣ Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:</p>
+                    <ul>
+                    <li>Nombre completo (nombre y apellido)</li>
+                    <li>Dinero real (dinero ahorrado menos deudas)</li>
+                    </ul>
+                    <h2>Funciones</h2>
+                    <p>1️⃣ Responde las siguientes preguntas en la sección de comentarios:</p>
+                    <ul>
+                    <li>¿Qué es una función?</li>
+                    <li>¿Cuándo me sirve usar una función en mi código?</li>
+                    <li>¿Cuál es la diferencia entre parámetros y argumentos de una función?</li>
+                    </ul>
+                    <p>2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:</p>
+                    <pre><code class="language-js"><span class="hljs-keyword">const</span> name = <span class="hljs-string">"Juan David"</span>;
+                    <span class="hljs-keyword">const</span> lastname = <span class="hljs-string">"Castro Gallego"</span>;
+                    <span class="hljs-keyword">const</span> completeName = name + lastname;
+                    <span class="hljs-keyword">const</span> nickname = <span class="hljs-string">"juandc"</span>;
+                    
+                    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Mi nombre es "</span> + completeName + <span class="hljs-string">", pero prefiero que me digas "</span> + nickname + <span class="hljs-string">"."</span>);
+                    </code></pre>
+                    <h2>Condicionales</h2>
+                    <p>1️⃣ Responde las siguientes preguntas en la sección de comentarios:</p>
+                    <ul>
+                    <li>¿Qué es una condicional?</li>
+                    <li>¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?</li>
+                    <li>¿Puedo combinar funciones y condicionales?</li>
+                    </ul>
+                    <p>2️⃣ Replica el comportamiento del siguiente código que usa la sentencia <code>switch</code> utilizando <code>if</code>, <code>else</code> y <code>else if</code>:</p>
+                    <pre><code class="language-js"><span class="hljs-keyword">const</span> tipoDeSuscripcion = <span class="hljs-string">"Basic"</span>;
+                    
+                    <span class="hljs-keyword">switch</span> (tipoDeSuscripcion) {
+                       <span class="hljs-keyword">case</span> <span class="hljs-string">"Free"</span>:
+                           <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Solo puedes tomar los cursos gratis"</span>);
+                           <span class="hljs-keyword">break</span>;
+                       <span class="hljs-keyword">case</span> <span class="hljs-string">"Basic"</span>:
+                           <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Puedes tomar casi todos los cursos de Platzi durante un mes"</span>);
+                           <span class="hljs-keyword">break</span>;
+                       <span class="hljs-keyword">case</span> <span class="hljs-string">"Expert"</span>:
+                           <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Puedes tomar casi todos los cursos de Platzi durante un año"</span>);
+                           <span class="hljs-keyword">break</span>;
+                       <span class="hljs-keyword">case</span> <span class="hljs-string">"ExpertPlus"</span>:
+                           <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año"</span>);
+                           <span class="hljs-keyword">break</span>;
+                    }
+                    </code></pre>
+                    <p>3️⃣ Replica el comportamiento de tu condicional anterior con <code>if</code>, <code>else</code> y <code>else if</code>, pero ahora solo con <code>if</code> (sin <code>else</code> ni <code>else if</code>).</p>
+                    <blockquote>
+                    <p>Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays y un solo condicional. 😏</p>
+                    </blockquote>
+                    <h2>Ciclos</h2>
+                    <p>1️⃣ Responde las siguientes preguntas en la sección de comentarios:</p>
+                    <ul>
+                    <li>¿Qué es un ciclo?</li>
+                    <li>¿Qué tipos de ciclos existen en JavaScript?</li>
+                    <li>¿Qué es un ciclo infinito y por qué es un problema?</li>
+                    <li>¿Puedo mezclar ciclos y condicionales?</li>
+                    </ul>
+                    <p>2️⃣ Replica el comportamiento de los siguientes ciclos <code>for</code> utilizando ciclos <code>while</code>:</p>
+                    <pre><code class="language-js"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">5</span>; i++) {
+                        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"El valor de i es: "</span> + i);
+                    }
+                    </code></pre>
+                    <pre><code class="language-js"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">10</span>; i &gt;= <span class="hljs-number">2</span>; i--) {
+                        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"El valor de i es: "</span> + i);
+                    }
+                    </code></pre>
+                    <p>3️⃣ Escribe un código en JavaScript que le pregunte a los usuarios cuánto es <code>2 + 2</code>. Si responden bien, mostramos un mensaje de felicitaciones, pero si responden mal, volvemos a empezar.</p>
+                    <blockquote>
+                    <p>Pista: puedes usar la función <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt" target="_blank" rel="noopener">prompt</a> de JavaScript.</p>
+                    </blockquote>
+                    <h2>Listas</h2>
+                    <p>1️⃣ Responde las siguientes preguntas en la sección de comentarios:</p>
+                    <ul>
+                    <li>¿Qué es un array?</li>
+                    <li>¿Qué es un objeto?</li>
+                    <li>¿Cuándo es mejor usar objetos o arrays?</li>
+                    <li>¿Puedo mezclar arrays con objetos o incluso objetos con arrays?</li>
+                    </ul>
+                    <p>2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.</p>
+                    <p>3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).</p>
+                    <p>4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).</p>
+                    <h2>¿Cómo te fue? 🏆</h2>
+                    <p><strong>¡Felicidades por completar la prueba de JavaScript!</strong> Confío en que hayas completado cada paso y hayas pausado para repasar los temas de los ejercicios que se te complicaron.</p>
+                    <p>Ahora sí, continúa a la siguiente clase, pero recuerda que <strong>ya no puedes abandonar el curso</strong>, debes completarlo hasta el final. No importa cuánto tiempo te tome.  <strong>Yo sé que tú puedes y tú deberías de saberlo también. Mira todo lo que lograste con esta prueba.</strong> 🏆</p>
+                    <p>¡Te espero en la siguiente clase para comenzar!</p>
+                    </div>
+            </section>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
