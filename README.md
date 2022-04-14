@@ -23,7 +23,7 @@
 
 ## Capítulo 9 de 24 - Reto: matemáticas con JavaScript
 
-	En este ejercicio debes crear una función para calcular la altura de un triángulo isósceles.
+En este ejercicio debes crear una función para calcular la altura de un triángulo isósceles.
 
 	function alturaTrianguloIsosceles(lado1, lado2, lado3) {
 
@@ -64,3 +64,24 @@
 	alturaTrianguloIsosceles(1,2,3)
 	alturaTrianguloIsosceles(5,5,6)
 
+## Capítulo 10 de 24 - Análisis: cómo calcular porcentajes y descuentos
+
+## capítulo 11 de 24 - Crea una página web para calcular descuentos
+
+## capítulo 12 de 24 - Escribiendo HTML desde JavaScript
+
+## capítulo 13 de 24 - Reto: funciones más inteligentes
+
+## capítulo 14 de 24 - Qué es promedio, moda y mediana
+
+## capítulo 15 de 24 - Calculando el promedio en JavaScript
+
+## capítulo 16 de 24 - Calculando la mediana en Javascript
+
+## capítulo 17 de 24 - Calculando la moda en Javascript
+
+## capítulo 18 de 24 - Reto: calcula otros tipos de promedio
+
+## capítulo 19 de 24 - Análisis: cómo analizar salarios
+
+## capítulo 20 de 24 - Calculando la mediana de salarios

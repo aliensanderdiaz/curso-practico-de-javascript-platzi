@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómo calcular descuentos y porcentajes</title>
+</head>
+
+<body>
+    <header>
+        <h1>Porcentajes y Descuentos</h1>
+        <p>
+            Este es el segundo taller del Curso Práctico de Javascript
+        </p>
+    </header>
+
+    <section>
+        <h2>
+            Calcula el precio a pagar de tus productos con descuento
+        </h2>
+
+        <form action="">
+            <label for="InputPrice">Escribe el precio de tu producto</label>
+            <input type="number" id="InputPrice" />
+            <label for="InputDiscount">Escribe el descuento de tu producto</label>
+            <input type="number" id="InputDiscount" />
+
+            <button type="button" onclick="onClickButtonPriceDiscount()">Calcular el precio con descuento</button>
+
+            <p id="ResultP"></p>
+        </form>
+    </section>
+
+    <section>
+        <h2>
+            Calcula el precio a pagar de tus productos con descuento
+        </h2>
+
+        <form>
+            <label for="InputPrice2">Escribe el precio de tu producto</label>
+            <input type="number" id="InputPrice2" />
+            <label for="InputDiscount2">Escribe el descuento de tu producto</label>
+            <select name="InputDiscount2" id="InputDiscount2">
+                <option value="10">10%</option>
+                <option value="20">20%</option>
+                <option value="30">30%</option>
+                <option value="40">40%</option>
+            </select>
+
+            <button type="button" onclick="onClickButtonPriceDiscount2()">Calcular el precio con descuento</button>
+
+            <p id="ResultP2"></p>
+        </form>
+    </section>
+
+    <script src="descuentos.js"></script>
+</body>
+
+</html>
