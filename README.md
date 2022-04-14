@@ -85,3 +85,11 @@ En este ejercicio debes crear una función para calcular la altura de un triáng
 ## capítulo 19 de 24 - Análisis: cómo analizar salarios
 
 ## capítulo 20 de 24 - Calculando la mediana de salarios
+
+## capítulo 21 de 24 - Calculando el top 10% de salarios
+
+## capítulo 22 de 24 - Reto: simulacion de estudio de salarios
+
+## capítulo 23 de 24 - deploy con github pages
+
+## capítulo 24 de 24 - ¿Qué más puedes aprender de JavaScript?
